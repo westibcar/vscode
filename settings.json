@@ -1,0 +1,71 @@
+{
+    "workbench.colorTheme": "SynthWave '84",
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-mac": "/Users/uday/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+        "vscode-kubernetes.minikube-path-mac": "/Users/uday/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+    },
+    "symbols.hidesExplorerArrows": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "workbench.layoutControl.enabled": false,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.8": "linux"
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [80, 120],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {
+            "x": 11,
+            "y": 10
+        }
+    },
+    "yaml.schemas": {
+        "file:///Users/uday/.vscode/extensions/docsmsft.docs-yaml-1.0.4/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "workbench.iconTheme": "symbols",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.tabs.enabled": false,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "windowed",
+    "editor.fontSize": 20,
+    "terminal.integrated.fontSize": 20,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "terminal.integrated.cursorStyle": "bar"
+}
+
